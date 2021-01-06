@@ -1,8 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-}
-div{
-    padding-bottom: 80px;
+    margin: 0px;
 }
 ul{
     text-decoration-style: none;
@@ -18,6 +16,10 @@ li{
     color: #3C3C3C;
     padding-left: 40px;
 }
+section{
+    height: 500px;
+    padding-bottom: 250px;
+}
 h1{
     font-size: 70px;
     color: #363958;
@@ -30,21 +32,62 @@ h1{
     width: 35%;
     float: left;
     padding: 2%;
-    margin: 5%;
+    margin: 30px 5%;
 }
 p{
     font-size: 20px;
+    color: #3E3E3E;
 }
 .link-button{
+    padding-left: 10px;
     text-decoration: none;
-    background-image: linear-gradient(180deg, tomato, #FF8367);
-    padding: 22px 55px;
-    border-radius: 10px;
     color: white;
     font-weight: 900px;
     font-size: 20px;
+    background-image: linear-gradient(180deg, tomato, #FF8367);
+    padding: 25px 40px;
+    border-radius: 10px;
 }
 h2{
     color:  #363958;
     font-size: 50px;
+}
+.low-part{
+    background-image: url(images/bg.jpg);
+    height: 600px;
+    width: 100%;
+}
+#position{
+    text-align: center;
+}
+.width{
+    width: 25%;
+    margin: 30px 20px;
+    padding: 20px;
+    float: left;
+    margin-top: 4%;
+    margin-left: 4% ;
+}
+.color{
+    color: rgb(233, 104, 81);
+}
+.single-project{
+    border-radius: 25px;
+    height: 80%;
+    background-color: white;
+}
+h3{
+    color: #363958;
+    font-size: 30px;
+}
+.bottom-part{
+    background-image: url(images/Group_33094_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 0% 20%;
+}
+.bottom-part .last{
+    float: left;
+    color: white;
 }
