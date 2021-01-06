@@ -50,7 +50,7 @@ p{
 }
 h2{
     color:  #363958;
-    font-size: 50px;
+    font-size: 60px;
 }
 .low-part{
     background-image: url(images/bg.jpg);
@@ -84,10 +84,35 @@ h3{
     background-image: url(images/Group_33094_1.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: left;
-    margin: 0% 20%;
+    background-position: center;
+    margin: -5% 15%;
 }
-.bottom-part .last{
+.last{
+    width: 35%;
     float: left;
+    padding: 2%;
+    margin: 16% 5%;
+}
+#text-color{
     color: white;
+}
+#link{
+    margin-top: 21%;
+}
+.footer{
+    margin-top: 4%;
+    text-align: center;
+}
+.footer h3{
+    color: #696871;
+    font-size: 25px;
+}
+.footer h2{
+    margin-top: -12px;
+    font-size: 40px;
+    color: #363958;
+}
+.icons{
+    float: left;
+    margin: 0% 45%;
 }
