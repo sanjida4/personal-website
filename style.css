@@ -118,3 +118,8 @@ h3{
     float: left;
     margin: 0% 45%;
 }
+footer p{
+    margin-top: -10%;
+    font-size: 12px;
+    text-align: center;
+}
