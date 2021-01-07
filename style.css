@@ -10,11 +10,15 @@ ul{
     font-weight: bold;
     float: right;
 }
-li{
+li {
     text-decoration: none;
     display: inline;
     color: #3C3C3C;
     padding-left: 40px;
+}
+a{
+    text-decoration: none;
+    color:  #3C3C3C;
 }
 section{
     height: 500px;
